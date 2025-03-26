@@ -1,9 +1,6 @@
 
 #include "TemperatureSensor.hpp"
 #include "PID.hpp"
-#include "RampPID.hpp"
-#include "HardcodedThreeStepPID.hpp"
-
 #include <math.h>
 
 // version is year.month.date.revision
