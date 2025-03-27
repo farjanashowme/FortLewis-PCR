@@ -6,7 +6,7 @@ struct TuningStruct{
   float kd;
 };
 
-class PIDv1{
+class PID{
 private:
 float kp;
 float ki;
@@ -19,7 +19,7 @@ int output =0;
 
 
 public:
-PIDv1 (TuningStruct tuning, int minOutput, int maxOutput){
+PID (TuningStruct tuning, int minOutput, int maxOutput){
   highClamp = maxOutput;
   lowClamp = minOutput;
   kp = tuning.kp;
